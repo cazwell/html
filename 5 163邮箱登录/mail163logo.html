@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         setTimeout(function(){location.reload()},1000); 
+    </script>
+    <style>
+        #logo,
+        #nav{
+            display: inline-block;
+        }
+        #nav{
+            text-align: right;
+        }
+        p{
+            float: right;
+        }
+        #div-imap{
+            background-color:pink;
+            width: 500px;
+            height: 400px;
+            float: left;
+            margin-left: 300px;
+            margin-top: 100px;
+            border-radius: 5%;
+            text-align: center;
+        }
+        #div-imap img{
+            margin-top: 50px;
+        }
+        #div-form{
+            float:left;
+            width: 400px;
+            height: 400px;
+            margin-left: 100px;
+            margin-top: 100px;
+            border:1px solid red;
+            border-radius: 5%;
+        }
+
+        #div-form form{
+            margin-top: 100px;
+        }
+
+         #div-form form{
+            text-align: center;
+         }
+
+         #div-form input{
+             margin-top: 10px;
+         }
+
+         .submit{
+             width:240px ;
+             height: 40px;
+             background-color: red;
+         }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="">
+            <img src="images/163logo.gif" alt="#" id="logo">
+        </a>
+        <p>
+            <a href="">免费邮</a>
+            <a href="">企业邮</a>
+            <a href="">VIP邮箱</a>
+            <a href="">帮助</a>
+        </p>
+
+    </div>
+    <div>
+        <div id="div-imap">
+            <img src="images/imap.jpg" alt="">
+            <ul>
+                <li>/126/yeah三大免费邮箱均默认开放</li>
+                <li>全面支持iPhone/iPad及Android等系统</li>
+                <li>客户端、手机与网页，实现发送、阅读邮件</li>
+            </ul>
+        </div>
+        <div id="div-form">
+            <form action="">
+                用户名:<input type="text"><br>
+                密&emsp;码:<input type="password"><br>
+                版&emsp;本:
+                <select name="" id=""> 
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                </select><br>
+                <input type="submit" class="submit">
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <img src="images/netease_logo.gif" alt="">
+        <a href="">关于网易</a>
+        <a href="">免费邮 </a>
+        <a href="">官方微博</a>
+        <a href="">客户服务</a>
+        <a href="">隐私政策</a>
+    </div>
+
+</body>
+</html>

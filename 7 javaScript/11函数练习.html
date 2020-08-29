@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // 写一个函数，能返回传入的任意两个数字的最大值。
+        function GetMaxFromTwoNumber(var1,var2) {
+            return Math.max(var1,var2);
+        }
+
+        // 写一个函数，能返回传入的任意三个数字的最大值。
+
+        function GetMaxFromThreeNumber(var1,var2,var3) {
+            return Math.max(var1,var2,var3);
+        }
+
+        //  写一个函数，能判断传入的一个数值是否是质数，如果是质数返回true，如果不是质数返回false，(质数：从2开始只能被1和自身整数的数)
+
+        function JudgeNumber( var1 ) {
+           var result=true;
+
+            for (var i = 2; i < var1; i++) {
+                if (var1%i==0) {
+                    result=false;
+                    break;
+                }
+            }
+           return result; 
+        }
+
+        
+ 
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

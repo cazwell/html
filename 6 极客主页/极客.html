@@ -1,0 +1,170 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+    <script>
+        setTimeout(function(){location.reload()},1000); 
+    </script>
+
+     <style>
+         *{
+             margin: 0px;
+             padding:0px;
+         }
+
+         .logo{
+             height: 40px;
+             margin-right: 200px;
+         }
+
+         #top{
+             text-align: center;
+             margin-top: 20px;
+         }
+
+        .search{
+            margin-right: 120px;
+        }
+
+        .search input{
+            width: 311px;
+            height: 30px;
+        }
+         
+         #top img,
+         #top div
+         {
+            display:inline-block;
+            vertical-align: top;
+         }
+
+         hr{
+             color: green;
+             size: 4px;
+         }
+
+         #menu{
+             margin-left: 200px;
+             text-align: center;
+         }
+
+         #nav{
+             margin-top: 20px;
+             text-align: center;
+         }
+         #nav .div-left,
+         #nav .div-mid,
+         #nav .div-right{
+            display: inline-block;
+            vertical-align: top;
+         }
+
+         #nav .div-left li{
+             height: 40px;
+             width: 180px;
+             list-style: none;
+             text-align: left;
+             border: 1px solid #E2E2E2;
+             line-height: 40px;
+             font-size: small;
+             padding-left: 15px;
+         }
+
+         #nav .div-left li::after{
+             content:">" ;
+             float: right;
+             padding-right:10px;
+             color: #E2E2E2;
+
+         }
+
+         #nav .div-right li{
+             height: 40px;
+             width: 180px;
+             list-style: none;
+             text-align: left;
+             line-height: 40px;
+             padding-left: 15px;
+         }
+         .getBtn{
+             position: absolute;
+             padding-top: 15px;
+             color: #fff;
+             background-color: #6bd780;
+             width: 160px;
+             height: 40px;
+             border:0px;
+
+         }
+         .div-get{
+             position: relative;
+             border:1px solid #E2E2E2;
+         }
+
+
+
+     </style>
+
+ </head>
+ <body>
+     <div id="top">
+         <img src="img/logo.png" alt="#" class="logo">
+         <div class="search">
+             <input type="text">
+             <img src="img/32.png" alt="">
+         </div>
+         <div>
+             <a href=""><img src="img/massage-icon.gif" alt=""></a>
+             <a href="">QQ登录</a>
+             <a href="">登录</a>
+             <a href="">注册</a>
+         </div>
+     </div>
+     <hr>
+     <div id="menu">
+         <a href="">首页</a>
+         <a href="">职业课程库</a>
+         <a href="">知识体系图</a>
+         <a href="">职业路径图</a>
+         <a href="">技术问答</a>
+         <a href="">Wiki</a>
+     </div>
+     <hr>
+     <div id="nav">
+        <div class="div-left">
+            <li>移动开发</li>
+            <li>前端开发</li>
+            <li>后端开发</li>
+            <li>基础知识</li>
+            <li>云计算&大数据</li>
+            <li>智能硬件&物联网</li>
+            <li>数据库</li>
+            <li>认证考试</li>
+        </div>
+        <div class="div-mid">
+            <img src="img/ad1.jpg" alt="">
+        </div>
+        <div class="div-right">
+            <div class="div-get">
+                <li>
+                    <a href="">极客学院 让学习更有效</a>
+                </li>
+                <li>
+                    <a href="">最新 | 系统 | 实战</a>
+                </li>
+                <li>
+                    <button class="getBtn">了解极客学院</button>
+                </li>
+
+                
+            </div>
+            <div>
+
+            </div>
+        </div>
+     </div>
+ </body>
+ </html>

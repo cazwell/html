@@ -1,0 +1,53 @@
+
+#config_list,
+#more{
+    display:none;
+}
+
+header li{
+    list-style:none;
+    text-align: right;
+    display: inline-block;
+}
+
+    
+#config:hover #config_list{
+    display: block;
+}
+
+
+header ul{
+    text-align: right;
+    
+}
+
+#search_form{
+    margin-top: 20%;
+    margin-left: 35%;
+ }
+
+ #sf_input{
+     width: 300px;
+ 
+ }
+ #sf_btn{
+     width: 150px;
+  }
+
+#config{
+    position: relative;
+
+}
+
+header #config #config_list{
+	position: absolute;
+	display: none;
+	top:5px;
+	left: 0px;
+	float: left;
+	border: 1px solid #888;
+	text-align: center;
+	padding: 0px;
+	margin: 20px;
+	z-index: 998;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        setTimeout(function(){location.reload()},1000); 
+    </script>
+    <style>
+		.div-container {
+			top: 50%;
+			left: 50%;
+			margin-top: -50px;
+			margin-left: -50px;
+            
+		}
+		div{
+            width: 100px;
+            height: 100px;
+            box-shadow: 8px 8px 6px 2px #EEE;
+            position: absolute;
+        }
+
+        .div-center{
+            background-color: #7f8c8d;
+         }
+         .div-top{
+            background-color:fuchsia;
+             top:-100px;
+         }
+         .div-left{
+             background-color: gold;
+             left: -100px;
+         }
+         .div-right{
+             background-color:blue;
+             right: -100px;
+         }
+         .div-bottom{
+             background-color:black;
+             bottom: -100px;
+         }
+         img{
+             margin:10px;
+         }
+
+    </style>
+</head>
+<body>
+	<div class="div-container">
+		<div class="div-left"></div>
+		<div class="div-top"></div>
+		<div class="div-center">
+			<img src="img/rocket.png" alt="火箭发射">
+		</div>
+		<div class="div-right"></div>
+		<div class="div-bottom"></div>
+	</div>
+
+</body>
+</html>
